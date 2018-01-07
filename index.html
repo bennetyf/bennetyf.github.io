@@ -13,55 +13,265 @@
 	<link rel="icon" href="/Resources/images/favicon.png">
 
 	<!--Include Bootstrap-->
-	<link rel="stylesheet" href="/Styles/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!--Include Font Styles-->
+  <link rel="stylesheet" href="/Styles/fontawesome/css/font-awesome.min.css">
 
 	<!--Include Customised Stylesheet-->
 	<link rel="stylesheet" href="/Styles/my-css/index.css">
 
 	<!--Include JQuery-->
-	<script src="/Styles/js/jquery.min.js"></script>
-	<!-- <script src="/Styles/js/utils.js"></script>
-	<script src="/Styles/js/tether.js"></script> -->
-	<script src="/Styles/js/bootstrap.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-	<header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="navigation">
-  		<div class="container">
-    		<div class="navbar-header">
-    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a href="/" class="navbar-brand">
-        			<img src="/Resources/images/logo.png">
-      			</a>
-    		</div>
-    		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      			<ul class="nav navbar-nav">
-      				<li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-      				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-globe"></span> Research<span class="caret"></span></a>
-      					<ul class="dropdown-menu">
-      						<li><a href="#">Publications</a></li>
-      						<li><a href="#">Research Interest</a></li>
-      						<li><a href="#">Research Projects</a></li>
-      					</ul>
-      				</li>
-      				<li><a href="#"><span class="glyphicon glyphicon-user"></span> About Me</a></li>
-      				<li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> Awards</a></li>
-      			</ul>
-      			<ul class="nav navbar-nav navbar-right">
-      				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list"> Other Links</span><span class="caret"></span></a>
-          				<ul class="dropdown-menu">
-          					<li><a target="_blank" href="#">Blog</a></li>
-          					<li><a target="_blank" href="#">Website</a></li>
-          				</ul>
-          			</li>
-      			</ul>
-      		</nav>
-		</div>
-	</header>
-	<h1>Hello World!</h1>
+<!-- Navigation Bar -->
+<header>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand"><span class="navbrand-font">FENG</span></a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/"><span class="fa fa-home"></span><b class="nav-font"> Home</b></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-book"></span><b class="nav-font"> Research</b><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"><span class="dropdown-font">Research Interests</span></a></li>
+              <li><a href="#"><span class="dropdown-font">Research Projects</span></a></li>
+              <li><a href="#"><span class="dropdown-font">Academic Activities</span></a></li>
+              <li><a href="#"><span class="dropdown-font">Publications</span></a></li>
+            </ul>
+          </li>
+          <li><a href="#"><span class="fa fa-graduation-cap"></span><b class="nav-font"> Awards</b></a></li>
+          <li><a href="#"><span class="fa fa-user"></span><b class="nav-font"> About Me</b></a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-bars"></span><b class="nav-font"> Other Links</b><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"><span class="dropdown-font">Blog</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Document Header -->
+<div class="container-fluid fp-header-sec">
+  <div class="col-md-12 row" role="main-header">
+    <img class="image" src="/Resources/images/computer.png">
+    <h1 class="name">Feng Yuan</h1>
+    <h1 class="title">PHD STUDENT,&nbsp&nbspCOMPUTER SCIENCE</h1>
+  </div>
+</div>
+
+<!-- Biography -->
+<div class="container-fluid fp-intro-sec">
+  <div class="row">
+    <div class ="col-md-5" role="main-photo">
+      <div class="fp-img"><img src="\Resources\images\selfy.jpg"></div>
+    </div>
+    <div class="col-md-7 fp-intro" role="main-intro">
+        <h2 class="name">Feng Yuan</h2>
+        <hr class="line"></hr>
+        <p class="bio">Feng is currently a PhD candidate in <a class="fp-bio" target="_blank" href="https://www.engineering.unsw.edu.au/computer-science-engineering/">Computer Science and Engineering</a>&nbsp(CSE), <a class="fp-bio" target="_blank" href="https://www.unsw.edu.au">University of New South Wales</a>&nbsp(UNSW). Prior to joining UNSW, Feng worked in Palette, Pty., Ltd., Australia as a firmware engineer. Feng holds a Master of Philosophy degree from the University of Melbourne (2017), and a Bachelor of Engineering degree from the University of Science and Technology of China (2014). Feng has rich research experience in optical communication and industry experience in embedded system development.</p>
+        <div class="btn1">
+          <a href="#" target="_self" class="btn1-a btn1link">Read More</a>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- News -->
+<div class="container-fluid fp-news-sec">
+  <div class="row">
+    <div class="col-md-12" role="news">
+      <div class="title">
+        <h1 class="title-style">News</h1>
+        <hr class="line"></hr>
+      </div>
+      <div class="contents">
+        <ul>
+          <li><span class="fa fa-spin fa-spinner fa-lg"></span><span class="contents-margin">Updating ...<span></li>
+          <li>
+            <span class="fa fa-newspaper-o"></span>
+            <span class="date contents-margin">2018-01-02</span>
+            <span class="contents-margin">Feng is settling down in Sydney.</span>
+            <span class="read-more"><a href="#"> Read More >> </a> </span>
+          </li>
+          <li>
+            <span class="fa fa-newspaper-o"></span>
+            <span class="date contents-margin">2017-12-16</span>
+            <span class="contents-margin">Feng just arrived in Sydney.</span>
+            <span class="read-more"><a href="#"> Read More >> </a> </span>            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+</div>
+
+<!-- Recent Papers -->
+<div class="container-fluid fp-papers-sec">
+  <div class="row">
+    <div class="col-md-12" role="papers">
+      <div class="title">
+        <h1 class="title-style">Recent Publications</h1>
+        <hr class="line"></hr>
+      </div>
+      <div class="contents">
+        <table class="contents-table">
+
+          <tr>
+            <td><span class="fa fa-file-text-o"></span></td>
+            <td>
+              <a target="_block" href="https://www.osapublishing.org/oe/abstract.cfm?uri=oe-25-8-8730">
+                D.Che,<span style="font-weight:bold">F.Yuan</span>,and W.Shieh,"Maximum likelihood sequence estimation for optical complex direct modulation", <span style="font-style:italic">Optics Express</span>, vol. 28, no. 5, pp. 8730-8738, 2017.
+              </a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><span class="fa fa-file-text-o"></span></td>
+            <td>
+              <a target="_block" href="https://www.osapublishing.org/abstract.cfm?uri=ofc-2017-M3C.5">
+                D.Che,<span style="font-weight:bold">F.Yuan</span>, and W.Shieh, "100-Gb/s complex direct modulation over 1600-km SSMF using probabilistic transition estimation," in <span style="font-style:italic">Proceedings Optical Fiber Communication Conference</span> (Los Angeles, California, United States, 2017), p. M3C.5.</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><span class="fa fa-file-text-o"></span></td>
+            <td>
+              <a target="_block" href="https://www.osapublishing.org/abstract.cfm?uri=ofc-2017-Th2A.47">
+                D.Che, <span style="font-weight:bold">F.Yuan</span>, and W.Shieh, "Adiabatic chirp impact on the OSNR sensitivity of complex direct modulation: an experiment investigation," in <span style="font-style:italic;">Proceedings Optical Fiber Communication Conference</span> (Los Angeles, California, United States, 2017), p. Th2A.47.</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><span class="fa fa-file-text-o"></span></td>
+            <td>
+              <a target="_block" href="https://www.osapublishing.org/abstract.cfm?URI=OFC-2017-Tu3D.4">
+                D.Che, <span style="font-weight:bold">F.Yuan</span>, and W.Shieh,"200-Gb/s Polarization-multiplexed DMT using Stokes vector receiver with frequency-domain MIMO," in <span style="font-style:italic">Proceedings Optical Fiber Communication Conference</span> (Los Angeles, California, United States, 2017), p. Tu3D.4.</a>
+            </td>
+          </tr>
+
+        </table>
+        <div class="btn2">
+          <a href="#" target="_self" class="btn2-a btn2link">Full List</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Foot -->
+<footer class="footer">
+  <div class="container-fluid fp-footer">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="contents">
+          <table width="100%">
+
+            <!-- Left Side of Footer -->
+            <td width="30%">
+              <table class="contacts-table">
+                <tr>
+                  <td>
+                    <span class="fa fa-address-card-o"></span>
+                  </td>
+                  <td>
+                      <strong>Room XXX, Computer Science and Engineering</strong><br>
+                      UNSW Sydney, High St<br>
+                      Kensington, NSW 2052, Australia<br>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="fa fa-phone"></span>
+                  </td>
+                  <td>
+                    <a href="tel:(+61)422360724">(+61) 0422360724</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="fa fa-envelope"></span>
+                  </td>
+                  <td>
+                    <a href="mailto:bennetyf@gmail.com">bennetyf@gmail.com</a><br>
+                    <a href="mailto:bennetyf@foxmail.com">bennetyf@foxmail.com</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+            <!-- Center of Footer -->
+            <td width="40%" align="center" valign="bottom" class="copyright">
+              <!-- Get Current Year -->
+              <script>
+                $(document).ready(function(){
+                  var date = new Date();
+                  var year = date.getFullYear();
+                  $(".fp-footer #current-year").text(year);
+                })
+              </script>
+              <p>Copyright &copy; 2017-<span id="current-year"></span> Feng Yuan</p>
+              <p>Themed by <a href="#" target="_self">Feng Yuan</a></p>
+            </td>
+
+            <!-- Right Side of Footer -->
+            <td width="30%" align="right" valign="bottom">
+              <table class="links-table">
+
+                <tr>
+                  <td align="right">
+                    <span class="fa fa-google"></span>
+                  </td>
+                  <td align="left">
+                    <a href="https://scholar.google.com.au/citations?user=pmV2l0YAAAAJ&hl=en">Google Scholar</a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right">
+                    <span class="fa fa-graduation-cap"></span>
+                  </td>
+                  <td align="left">
+                    <a href="https://www.researchgate.net/profile/Feng_Yuan22"> Research Gate</a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right">
+                    <span>Follow Me:</span>
+                  </td>
+                  <td align="left">
+                    <a href="https://twitter.com/Bennet15614634" target="_blank"><span class="fa fa-twitter-square fa-lg"></span></a>
+                    <a href="https://www.facebook.com/profile.php?id=100006874840870" target="_blank"><span class="fa fa-facebook-square fa-lg"></span></a>
+                    <a href="https://www.linkedin.com/in/feng-yuan-10ba2b75/" target="_blank"><span class="fa fa-linkedin-square fa-lg"></span></a>
+                    <a href="https://plus.google.com/u/0/110752567647903784834" target="_blank"><span class="fa fa-google-plus-square fa-lg"></span></a>
+                    <a href="https://github.com/bennetyf" target="_blank"><span class="fa fa-git-square fa-lg"></span></a>
+                  </td>
+                </tr>
+
+              </table>
+            </td>
+
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
 </body>
 </html>

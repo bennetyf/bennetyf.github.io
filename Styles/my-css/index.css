@@ -1,5 +1,348 @@
 /* Home Page Styles */
 body{
+	width:100%;
+	height:100%;
 	padding-top: 50px;
-	padding-left:50px;
+	padding-left:0px;
+	color:#333333;
+	background-color: transparent;
+}
+
+/* Navigation Bar Styles */
+.navbrand-font{
+	font-family: cursive;
+	font-size:120%;
+}
+
+.nav-font{
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+.dropdown-font{
+	font-family: sans-serif;
+	font-size: 110%;
+}
+
+/* Picture Header */
+.fp-header-sec{
+  padding: 200px 0px 50px;
+  height:400px;
+  text-align: center;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+  background:url(/Resources/images/FrontPageHeader.jpg) no-repeat;
+}
+
+.fp-header-sec h1 {
+  color: #fff;
+}
+
+.fp-header-sec .image{
+	height:60px;
+	width:80px;
+}
+
+.fp-header-sec .name{
+	text-align: center;
+	font-style:italic;
+	font-family: fantasy;
+	font-weight:700;
+	font-size:300%;
+	color:#fff;
+}
+
+.fp-header-sec .title{
+	text-align:center;
+	font-family: sans-serif;
+	font-size:150%;
+	font-weight:500;
+	color:#fff;
+}
+
+/* Front Page Image Style */
+.fp-img{
+	margin:80px 0px 80px 160px;
+    width:240px;
+    height:360px;
+    border-radius:20px;
+    overflow: hidden;
+    position:relative;
+}
+
+/* Front Page Introduction */
+.fp-intro-sec{
+	width:100%;
+	height:auto;
+	background-color: #f7f7f7;
+}
+
+.fp-intro{
+	margin:80px 0px 80px 0px;
+	position:relative;
+}
+
+.fp-intro .name{
+	margin:20px 0px 20px 0px;
+	font-family: monospace;
+}
+
+.fp-intro .line{
+	margin:0;
+	width:180px;
+	height:4px;
+	border:none;
+	border-top:4px solid #000;
+}
+
+.fp-intro .bio{
+	margin:20px 60px 0px 0px;
+	font-size:120%;
+	text-align: justify;
+}
+
+/* Links in Frontpage Introduction */
+.bio a{
+	color:#0000e3;
+}
+
+.bio a:hover{
+	background-color:#aaaaff;
+	text-decoration: underline;
+	transition: background-color 0.6s ease 0.1s;
+}
+
+.bio a:visited{
+	background-color:#aaaaff;
+	text-decoration: none;
+}
+
+/* Read More Button (Button1) */
+.fp-intro .btn1{
+	margin:30px 0px 0px 0px;
+	height:50px;
+	width:120px;
+	position:relative;
+}
+
+.btn1 .btn1link{
+	background-color: transparent;
+	color: 		#27223E;
+	font-size:	120%;
+    border: 	solid rgba(39, 34, 62, 1) 2px;
+    padding: 	5px 10px 5px 10px;
+    justify-content: center;
+    cursor: 	pointer;
+    display:	flex;
+    align-items:center;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s,color 0.4s ease 0s;
+}
+
+.btn1-a:hover{
+	color: #7d7dff;
+    border-color: #7d7dff;
+    text-decoration: none;
+}
+
+/* Front Page News Section */
+.fp-news-sec{
+	background-color: rgba(223, 207, 186, 1);
+	width:100%;
+	height:auto;
+}
+
+.fp-news-sec .title{
+	margin-top: 	50px;
+	margin-bottom: 	50px;
+	text-align: 	center;
+}
+
+.fp-news-sec .title-style{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.fp-news-sec .line{
+	margin-top:0;
+	width:15%;
+	height:2px;
+	border:none;
+	border-top:2px solid #000;
+}
+
+.fp-news-sec .contents{
+	margin:20px 160px 60px 160px;
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+.fp-news-sec ul{
+	list-style-type:none;	
+	padding-left:0px;
+}
+
+.fp-news-sec li{
+	padding-left:0px;
+	margin-bottom: 20px;
+}
+
+.fp-news-sec .date{
+	font-weight:bold;
+}
+
+.fp-news-sec .contents-margin{
+	margin-left:15px;
+}
+
+.fp-news-sec .read-more{
+	margin-right:20px;
+	float:right;
+}
+
+.fp-news-sec a{
+	color:#0066cc;
+	text-decoration: none;
+}
+
+.fp-news-sec a:hover{
+	color:#46a3ff;
+	text-decoration: underline;
+	transition: color 0.4s ease 0s;
+}
+
+.fp-news-sec a:visited{
+	color:#aaaaff;
+	text-decoration: none;
+}
+
+/* Recent Publications */
+.fp-papers-sec{
+	width:100%;
+	height:auto;
+	background-color: #f7f7f7;
+}
+
+.fp-papers-sec .title{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.fp-papers-sec .title-style{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.fp-papers-sec .line{
+	margin-top:0;
+	width:15%;
+	height:2px;
+	border:none;
+	border-top:2px solid #000;
+}
+
+.fp-papers-sec .contents{
+	margin:20px 160px 60px 160px;
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+.fp-papers-sec .contents-table{
+	border-collapse: collapse;
+	align:left;
+}
+
+.fp-papers-sec td{
+	padding:0px 20px 20px 0px;
+	text-align: justify;
+}
+
+.contents-table a{
+ 	color: #007979;
+}
+
+.contents-table a:hover{
+	color:#00caca;
+	text-decoration: none;
+	transition: color 0.6s ease 0.1s;
+}
+
+.contents-table a:visited{
+	color:#aaaaff;
+	text-decoration: none;
+}
+
+.fp-papers-sec .btn2{
+	margin:0px 0px 0px 0px;
+	height:50px;
+	width:120px;
+	position:relative;
+}
+
+.btn2 .btn2link{
+	background-color: transparent;
+	color: 		#27223E;
+	font-size:	100%;
+    border: 	solid rgba(39, 34, 62, 1) 2px;
+    padding: 	5px 10px 5px 10px;
+    justify-content: center;
+    cursor: 	pointer;
+    display:	flex;
+    align-items:center;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s,color 0.4s ease 0s;
+}
+
+.btn2-a:hover{
+	color: #7d7dff;
+    border-color: #7d7dff;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+.fp-footer{
+	background-color:#222;
+	color:#e0e0e0;
+	font-family: serif;
+	width:100%;
+	height:auto;
+}
+
+.fp-footer .contents{
+	padding: 25px 10px 25px 10px;
+}
+
+.fp-footer .contacts-table{
+	border-collapse: collapse;
+	align:left;
+}
+
+.contacts-table tr{
+	vertical-align: top;
+}
+.contacts-table td{
+	margin:0;
+	padding:0px 10px 10px 10px;
+}
+.fp-footer a{
+	color:#f7f7f7;
+}
+.fp-footer a:hover{
+	color:#4efbe3;
+	text-decoration: none;
+}
+
+.fp-footer .copyright{
+	font-size:110%;
+}
+
+.fp-footer .links-table{
+	border-collapse:collapse;
+}
+
+.links-table tr{
+	vertical-align: top;
+}
+
+.links-table td{
+	margin:0;
+	padding:0px 10px 10px 5px;
 }
