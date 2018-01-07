@@ -302,6 +302,7 @@ body{
 	background-color:#222;
 	color:#e0e0e0;
 	font-family: serif;
+	font-size:110%;
 	width:100%;
 	height:auto;
 }
@@ -330,10 +331,6 @@ body{
 	text-decoration: none;
 }
 
-.fp-footer .copyright{
-	font-size:110%;
-}
-
 .fp-footer .links-table{
 	border-collapse:collapse;
 }
@@ -344,5 +341,373 @@ body{
 
 .links-table td{
 	margin:0;
-	padding:0px 10px 10px 5px;
+	padding:0px 10px 16px 10px;
 }
+
+/* Research Interest Page */
+.research-interest-sec{
+	width:100%;
+	height:auto;
+	background-color: #f7f7f7;
+}
+
+.research-interest-sec .title{
+	margin-top: 	50px;
+	margin-bottom: 	50px;
+	text-align: 	center;
+}
+
+.research-interest-sec .title-style{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.research-interest-sec .line{
+	margin-top:0;
+	width:15%;
+	height:2px;
+	border:none;
+	border-top:2px solid #000;
+}
+
+.research-interest-sec .contents{
+	margin:20px 160px 60px 160px;
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+/* Research Projects */
+.research-projects-sec{
+	width:100%;
+	height:auto;
+	background-color: rgba(223, 207, 186, 1);
+}
+
+.research-projects-sec .title{
+	margin-top: 	50px;
+	margin-bottom: 	50px;
+	text-align: 	center;
+}
+
+.research-projects-sec .title-style{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.research-projects-sec .line{
+	margin-top:0;
+	width:15%;
+	height:2px;
+	border:none;
+	border-top:2px solid #000;
+}
+
+.research-projects-sec .contents{
+	margin:20px 160px 60px 160px;
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+.research-projects-sec .rp-contents-table{
+	border-collapse: collapse;
+	align:left;
+}
+
+.rp-contents-table td{
+	padding:0px 20px 20px 10px;
+	text-align: justify;
+}
+
+/* Academic Activities */
+.academic-activities-sec{
+	width:100%;
+	height:auto;
+	background-color: #f7f7f7;
+}
+
+.academic-activities-sec .title{
+	margin-top: 	50px;
+	margin-bottom: 	50px;
+	text-align: 	center;
+}
+
+.academic-activities-sec .title-style{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.academic-activities-sec .line{
+	margin-top:0;
+	width:15%;
+	height:2px;
+	border:none;
+	border-top:2px solid #000;
+}
+
+.academic-activities-sec .contents{
+	margin:20px 160px 60px 160px;
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+.academic-activities-sec .contents-margin{
+	margin-left:15px;
+}
+
+.academic-activities-sec ul{
+	list-style-type:none;	
+	padding-left:0px;
+}
+
+.academic-activities-sec li{
+	padding-left:0px;
+	margin-bottom: 20px;
+}
+
+/* Publications */
+.publications-sec{
+	width:100%;
+	height:auto;
+	background-color: rgba(223, 207, 186, 1);
+}
+
+.publications-sec .title{
+	margin-top: 	50px;
+	margin-bottom: 	50px;
+	text-align: 	center;
+}
+
+.publications-sec .title-style{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.publications-sec .line{
+	margin-top:0;
+	width:15%;
+	height:2px;
+	border:none;
+	border-top:2px solid #000;
+}
+
+.publications-sec .contents{
+	margin:20px 160px 60px 160px;
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+.publications-sec .main-title{
+	font-family: cursive;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 150%;
+	margin-bottom: 40px;
+}
+
+.publications-sec a{
+	color:#0000c6;
+}
+
+.publications-sec a:hover{
+	color:#009393;
+	text-decoration: none;
+	transition: color 0.6s ease 0.1s;
+}
+
+.publications-sec a:visited{
+	color:#ff5151;
+	text-decoration: none;
+}
+
+/* Awards */
+.awards-sec{
+	width:100%;
+	height:auto;
+	background-color: rgba(223, 207, 186, 1);
+}
+
+.awards-sec .title{
+	margin-top: 	50px;
+	margin-bottom: 	50px;
+	text-align: 	center;
+}
+
+.awards-sec .title-style{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.awards-sec .line{
+	margin-top:0;
+	width:15%;
+	height:2px;
+	border:none;
+	border-top:2px solid #000;
+}
+
+.awards-sec .contents{
+	margin:20px 160px 60px 160px;
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+.awards-sec .aw-contents-table{
+	border-collapse: collapse;
+	font-size:110%;
+	align:left;
+}
+
+.awards-sec td{
+	padding:0px 20px 20px 10px;
+	text-align: justify;
+}
+
+/* About Me -  Biography */
+.aboutme-bib-sec{
+	width:100%;
+	height:auto;
+	background-color: #f7f7f7;
+}
+
+.aboutme-bib-sec .title{
+	margin-top: 	50px;
+	margin-bottom: 	50px;
+	text-align: 	center;
+}
+
+.aboutme-bib-sec .title-style{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.aboutme-bib-sec .line{
+	margin-top:0;
+	width:15%;
+	height:2px;
+	border:none;
+	border-top:2px solid #000;
+}
+
+.aboutme-bib-sec .contents{
+	margin:20px 160px 60px 160px;
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+.aboutme-bib-sec .btn3{
+	margin:30px 0px 0px 0px;
+	height:50px;
+	width:180px;
+	position:relative;
+}
+
+.btn3 .btn3link{
+	background-color: transparent;
+	color: 		#27223E;
+	font-size:	100%;
+    border: 	solid rgba(39, 34, 62, 1) 2px;
+    padding: 	5px 10px 5px 10px;
+    justify-content: center;
+    cursor: 	pointer;
+    display:	flex;
+    align-items:center;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s,color 0.4s ease 0s;
+}
+
+.btn3-a:hover{
+	color: #7d7dff;
+    border-color: #7d7dff;
+    text-decoration: none;
+}
+
+/* About Me - Education */
+.aboutme-edu-sec{
+	width:100%;
+	height:auto;
+	background-color: rgba(223, 207, 186, 1);
+}
+
+.aboutme-edu-sec .title{
+	margin-top: 	50px;
+	margin-bottom: 	50px;
+	text-align: 	center;
+}
+
+.aboutme-edu-sec .title-style{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.aboutme-edu-sec .line{
+	margin-top:0;
+	width:15%;
+	height:2px;
+	border:none;
+	border-top:2px solid #000;
+}
+
+.aboutme-edu-sec .contents{
+	margin:20px 160px 60px 160px;
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+.aboutme-edu-sec .ab-edu-table{
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	align:left;
+}
+
+.aboutme-edu-sec td{
+	padding:0px 0px 10px 10px;
+	text-align: justify;
+}
+
+.aboutme-cell-width{
+	width: 200px;
+}
+
+/* About Me - Employment */
+.aboutme-emp-sec{
+	width:100%;
+	height:auto;
+	background-color: #f7f7f7;
+}
+
+.aboutme-emp-sec .title{
+	margin-top: 	50px;
+	margin-bottom: 	50px;
+	text-align: 	center;
+}
+
+.aboutme-emp-sec .title-style{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.aboutme-emp-sec .line{
+	margin-top:0;
+	width:15%;
+	height:2px;
+	border:none;
+	border-top:2px solid #000;
+}
+
+.aboutme-emp-sec .contents{
+	margin:20px 160px 60px 160px;
+	font-family: Helvetica;
+	font-size:120%;
+}
+
+.aboutme-emp-sec .ab-emp-table{
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	font-size: 110%;
+	align:left;
+}
+
+.aboutme-emp-sec td{
+	padding:0px 0px 10px 15px;
+	text-align: justify;
+}
+
