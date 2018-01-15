@@ -26,11 +26,13 @@ body{
 
 /* Picture Header */
 .fp-header-sec{
-  padding: 200px 0px 50px;
+  padding: 200px 0px 50px 0px;
   height:400px;
+  width: 100%;
   text-align: center;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
   background:url(/Resources/images/FrontPageHeader.jpg) no-repeat;
+  background-size:cover;
 }
 
 .fp-header-sec h1 {
